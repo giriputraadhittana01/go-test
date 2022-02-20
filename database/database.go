@@ -1,6 +1,6 @@
 package database
 
-import "fmt"
+// import "fmt"
 
 var connection string
 
