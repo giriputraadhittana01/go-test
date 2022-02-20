@@ -286,6 +286,10 @@ func isValid(data interface{}) bool{
 	return true
 }
 
+func SayHello() string{
+	return "Hello"
+}
+
 func main() {
 	// Declare a variable in golang
 	// var number int = 20
