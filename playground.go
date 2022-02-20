@@ -1,4 +1,4 @@
-package go_test
+package main
 
 import (
 	// "container/list"
@@ -290,466 +290,466 @@ func SayHello() string{
 	return "Hello"
 }
 
-// func main() {
-// 	// Declare a variable in golang
-// 	// var number int = 20
-// 	// number2 := 42
-// 	// name := "Giri Putra Adhittana"
+func main() {
+	// Declare a variable in golang
+	// var number int = 20
+	// number2 := 42
+	// name := "Giri Putra Adhittana"
 
-// 	// // Print in Golang
-// 	// printValueAndTypeInt(number)
-// 	// printValueAndTypeString(name)
-// 	// printValueAndTypeInt(number2)
+	// // Print in Golang
+	// printValueAndTypeInt(number)
+	// printValueAndTypeString(name)
+	// printValueAndTypeInt(number2)
 
-// 	// Convert golang
-// 	// var i int = 42
-// 	// j := float32(i)
-// 	// fmt.Printf("%v %T", j, j)
-// 	// j := string(i) // Not using strconv will be printing ascii
-// 	// fmt.Printf("%v %T", j, j)
-// 	// j := strconv.Itoa(i)
-// 	// fmt.Printf("%v %T", j, j)
+	// Convert golang
+	// var i int = 42
+	// j := float32(i)
+	// fmt.Printf("%v %T", j, j)
+	// j := string(i) // Not using strconv will be printing ascii
+	// fmt.Printf("%v %T", j, j)
+	// j := strconv.Itoa(i)
+	// fmt.Printf("%v %T", j, j)
 
-// 	// Declare an array
-// 	// arr := [10]int{1,2,3,4,5,6,7,7,8,9}
-// 	// arr := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-// 	// fmt.Printf("Value : %v",arr)
-// 	// Slice an element
-// 	// a := arr[:]
-// 	// b := arr[3:]
-// 	// c := arr[:6]
-// 	// d := arr[3:6]
-// 	// arr[5] = 52
-// 	// fmt.Printf("Value : %v\n", a)
-// 	// fmt.Printf("Value : %v\n", b)
-// 	// fmt.Printf("Value : %v\n", c)
-// 	// fmt.Printf("Value : %v\n", d)
+	// Declare an array
+	// arr := [10]int{1,2,3,4,5,6,7,7,8,9}
+	// arr := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	// fmt.Printf("Value : %v",arr)
+	// Slice an element
+	// a := arr[:]
+	// b := arr[3:]
+	// c := arr[:6]
+	// d := arr[3:6]
+	// arr[5] = 52
+	// fmt.Printf("Value : %v\n", a)
+	// fmt.Printf("Value : %v\n", b)
+	// fmt.Printf("Value : %v\n", c)
+	// fmt.Printf("Value : %v\n", d)
 
-// 	// using make method
-// 	// a := make([]int, 3, 100)
-// 	// fmt.Println(a)
-// 	// fmt.Printf("Length : %v\n", len(a))
-// 	// fmt.Printf("Capacity : %v\n", cap(a))
+	// using make method
+	// a := make([]int, 3, 100)
+	// fmt.Println(a)
+	// fmt.Printf("Length : %v\n", len(a))
+	// fmt.Printf("Capacity : %v\n", cap(a))
 	
-// 	// Copy Slice
-// 	// arr := [...]int{1,2,3,4,5,6}
-// 	// a := make([]int, 3, 100)
-// 	// a[0] = 120
-// 	// a[1] = 200
-// 	// a[2] = 300
-// 	// copySlice := make([]int, len(a),cap(a))
-// 	// copy(copySlice,a)
-// 	// fmt.Println(a)
-// 	// fmt.Println(copySlice)
+	// Copy Slice
+	// arr := [...]int{1,2,3,4,5,6}
+	// a := make([]int, 3, 100)
+	// a[0] = 120
+	// a[1] = 200
+	// a[2] = 300
+	// copySlice := make([]int, len(a),cap(a))
+	// copy(copySlice,a)
+	// fmt.Println(a)
+	// fmt.Println(copySlice)
 
-// 	// Map and Struct
-// 	// statePopulations := map[string]int{
-// 	// 	"California": 123,
-// 	// 	"Texas":      412,
-// 	// 	"Florida":    751,
-// 	// 	"Miami":      293,
-// 	// 	"Ohio":       815,
-// 	// }
-// 	// statePopulations["Georgia"] = 1310
-// 	// delete(statePopulations, "Texas") // Delete Entry
-// 	// fmt.Println(statePopulations)
-// 	// fmt.Println(statePopulations["Ohio"])
+	// Map and Struct
+	// statePopulations := map[string]int{
+	// 	"California": 123,
+	// 	"Texas":      412,
+	// 	"Florida":    751,
+	// 	"Miami":      293,
+	// 	"Ohio":       815,
+	// }
+	// statePopulations["Georgia"] = 1310
+	// delete(statePopulations, "Texas") // Delete Entry
+	// fmt.Println(statePopulations)
+	// fmt.Println(statePopulations["Ohio"])
 
-// 	// student := Student{
-// 	// 	name: "Giri Putra Adhittana",
-// 	// 	nim:  "2201767592",
-// 	// 	age:  20,
-// 	// 	courses: []string{
-// 	// 		"BTC",
-// 	// 		"XRP",
-// 	// 		"ETH",
-// 	// 	},
-// 	// }
-// 	// fmt.Println(student)
+	// student := Student{
+	// 	name: "Giri Putra Adhittana",
+	// 	nim:  "2201767592",
+	// 	age:  20,
+	// 	courses: []string{
+	// 		"BTC",
+	// 		"XRP",
+	// 		"ETH",
+	// 	},
+	// }
+	// fmt.Println(student)
 
-// 	// animal := Dog{
-// 	// 	Animal: Animal{
-// 	// 		name:   "Bobo",
-// 	// 		origin: "Canada",
-// 	// 	},
-// 	// 	bark_strength: 200,
-// 	// 	claw_strength: 141,
-// 	// }
-// 	// fmt.Println(animal)
+	// animal := Dog{
+	// 	Animal: Animal{
+	// 		name:   "Bobo",
+	// 		origin: "Canada",
+	// 	},
+	// 	bark_strength: 200,
+	// 	claw_strength: 141,
+	// }
+	// fmt.Println(animal)
 
-// 	// t := reflect.TypeOf(Animal{})
-// 	// field, _ := t.FieldByName("name")
-// 	// fmt.Println(field.Tag)
+	// t := reflect.TypeOf(Animal{})
+	// field, _ := t.FieldByName("name")
+	// fmt.Println(field.Tag)
 
-// 	// Conditional Statement
-// 	// number := 30
-// 	// if true {
-// 	// 	fmt.Println("Hello World")
-// 	// }
-// 	// if number > 50 {
-// 	// 	fmt.Println("Number is bigger than 50")
-// 	// } else if number > 25 {
-// 	// 	fmt.Println("Number is bigger than 25")
-// 	// }
+	// Conditional Statement
+	// number := 30
+	// if true {
+	// 	fmt.Println("Hello World")
+	// }
+	// if number > 50 {
+	// 	fmt.Println("Number is bigger than 50")
+	// } else if number > 25 {
+	// 	fmt.Println("Number is bigger than 25")
+	// }
 
-// 	// number := 50
-// 	// switch number {
-// 	// case 50:
-// 	// 	fmt.Println("50")
-// 	// 	break
-// 	// case 20:
-// 	// 	fmt.Println("20")
-// 	// 	break
-// 	// }
+	// number := 50
+	// switch number {
+	// case 50:
+	// 	fmt.Println("50")
+	// 	break
+	// case 20:
+	// 	fmt.Println("20")
+	// 	break
+	// }
 
-// 	// Looping
-// 	// for i := 0; i < 5; i++ {
-// 	// 	fmt.Println(i)
-// 	// }
+	// Looping
+	// for i := 0; i < 5; i++ {
+	// 	fmt.Println(i)
+	// }
 
-// 	// Defer
-// 	// fmt.Println("Start")
-// 	// defer fmt.Println("Thi was deffered")
-// 	// panic("Something bad happened")
-// 	// fmt.Println("End")
+	// Defer
+	// fmt.Println("Start")
+	// defer fmt.Println("Thi was deffered")
+	// panic("Something bad happened")
+	// fmt.Println("End")
 
-// 	// fmt.Println("Start")
-// 	// defer func() {
-// 	// 	if err := recover(); err != nil {
-// 	// 		log.Println("Error : ", err)
-// 	// 		panic(err)
-// 	// 	}
-// 	// }()
-// 	// panic("Something bad happened")
-// 	// fmt.Println("End")
+	// fmt.Println("Start")
+	// defer func() {
+	// 	if err := recover(); err != nil {
+	// 		log.Println("Error : ", err)
+	// 		panic(err)
+	// 	}
+	// }()
+	// panic("Something bad happened")
+	// fmt.Println("End")
 
-// 	// type tipedata string
-// 	// var name tipedata = "Giri Putra Adhittana"
-// 	// var e byte = name[0]
-// 	// fmt.Println(string(e))
+	// type tipedata string
+	// var name tipedata = "Giri Putra Adhittana"
+	// var e byte = name[0]
+	// fmt.Println(string(e))
 
-// 	// var i = "Hello"
-// 	// var j = 2
-// 	// fmt.Println(i+j)
+	// var i = "Hello"
+	// var j = 2
+	// fmt.Println(i+j)
 
-// 	// Map using make
-// 	// var test map[string]string = make(map[string]string)
-// 	// test["1"] = "Hello"
-// 	// fmt.Println(test)
+	// Map using make
+	// var test map[string]string = make(map[string]string)
+	// test["1"] = "Hello"
+	// fmt.Println(test)
 
-// 	// For Loop
-// 	// arr := [...]string{
-// 	// 	"Giri",
-// 	// 	"Putra",
-// 	// 	"Adhittana",
-// 	// }
-// 	// for i:=0; i<len(arr); i++ {
-// 	// 	fmt.Println(arr[i])
-// 	// }
-// 	// for idx,value := range arr {
-// 	// 	fmt.Println(idx," : ",value)
-// 	// }
+	// For Loop
+	// arr := [...]string{
+	// 	"Giri",
+	// 	"Putra",
+	// 	"Adhittana",
+	// }
+	// for i:=0; i<len(arr); i++ {
+	// 	fmt.Println(arr[i])
+	// }
+	// for idx,value := range arr {
+	// 	fmt.Println(idx," : ",value)
+	// }
 
-// 	// Append Array in Array
-// 	// var arr []string 
+	// Append Array in Array
+	// var arr []string 
 
-// 	// arr = []string{
-// 	// 	"1",
-// 	// 	"2",
-// 	// 	"3",
-// 	// }
+	// arr = []string{
+	// 	"1",
+	// 	"2",
+	// 	"3",
+	// }
 
-// 	// // arr = append(arr, "4")
-// 	// // fmt.Println(arr)
-// 	// tmp := []string{"4","5"}
-// 	// arr = append(arr,tmp...)
-// 	// fmt.Println(arr)
+	// // arr = append(arr, "4")
+	// // fmt.Println(arr)
+	// tmp := []string{"4","5"}
+	// arr = append(arr,tmp...)
+	// fmt.Println(arr)
 
-// 	// Append String
-// 	// str := "Giri Putra Adhittana"
-// 	// fmt.Println("Hello "+str+" Boba Enak")
+	// Append String
+	// str := "Giri Putra Adhittana"
+	// fmt.Println("Hello "+str+" Boba Enak")
 
-// 	// Function
-// 	// x := 2
-// 	// y := 5
-// 	// fmt.Println(sum(x,y))
-// 	// x,y = swap(x,y)
-// 	// fmt.Println(x,y)
+	// Function
+	// x := 2
+	// y := 5
+	// fmt.Println(sum(x,y))
+	// x,y = swap(x,y)
+	// fmt.Println(x,y)
 
-// 	// arr := []string{
-// 	// 	"Giri",
-// 	// 	"Putra",
-// 	// 	"Adhittana",
-// 	// }
-// 	// // arr = addArr(arr,"Hello","World","Panda")
-// 	// // fmt.Println(arr)
+	// arr := []string{
+	// 	"Giri",
+	// 	"Putra",
+	// 	"Adhittana",
+	// }
+	// // arr = addArr(arr,"Hello","World","Panda")
+	// // fmt.Println(arr)
 
-// 	// displayArr(arr...)
+	// displayArr(arr...)
 
-// 	// Function Value
-// 	// getname := getName
-// 	// fmt.Println(getname("Panda"))
+	// Function Value
+	// getname := getName
+	// fmt.Println(getname("Panda"))
 
-// 	// Function as Parameter
-// 	// str := "Anjing kau"
-// 	// filter := spamFilter
+	// Function as Parameter
+	// str := "Anjing kau"
+	// filter := spamFilter
 
-// 	// fmt.Println(sendText(str,filter))
+	// fmt.Println(sendText(str,filter))
 
-// 	// Anonymous Function
-// 	// userFunc := func(name string) string{
-// 	// 	if name=="giri"{
-// 	// 		return "Ientau"
-// 	// 	}else{
-// 	// 		return "Ane Bai"
-// 	// 	}
-// 	// }
+	// Anonymous Function
+	// userFunc := func(name string) string{
+	// 	if name=="giri"{
+	// 		return "Ientau"
+	// 	}else{
+	// 		return "Ane Bai"
+	// 	}
+	// }
 
-// 	// str := "giri"
+	// str := "giri"
 
-// 	// fmt.Println(sendText(str,userFunc))
+	// fmt.Println(sendText(str,userFunc))
 
-// 	// Recursive Function Fibo
-// 	// fmt.Println(fib(5))
+	// Recursive Function Fibo
+	// fmt.Println(fib(5))
 
-// 	// Closure
-// 	// count := 0
-// 	// increment := func(){
-// 	// 	count++
-// 	// 	fmt.Println("Increment : ",count)
-// 	// }
-// 	// increment()
-// 	// increment()
+	// Closure
+	// count := 0
+	// increment := func(){
+	// 	count++
+	// 	fmt.Println("Increment : ",count)
+	// }
+	// increment()
+	// increment()
 	
-// 	// Defer : Mengeksekusi program di akhir
-// 	// runApplication(0)
+	// Defer : Mengeksekusi program di akhir
+	// runApplication(0)
 
-// 	// Panic : Membuat program berhenti
-// 	// runApp(true)
+	// Panic : Membuat program berhenti
+	// runApp(true)
 
-// 	// Recover : Recover panic (disimpan didalam defer)
-// 	// run(true)
+	// Recover : Recover panic (disimpan didalam defer)
+	// run(true)
 
-// 	// Struct
+	// Struct
 
-// 	// Struct normal
-// 	// var customer Customer
-// 	// customer.Name = "Giri Putra Adhittana"
-// 	// customer.Address = "Thamrin"
-// 	// customer.age = "20"
+	// Struct normal
+	// var customer Customer
+	// customer.Name = "Giri Putra Adhittana"
+	// customer.Address = "Thamrin"
+	// customer.age = "20"
 
-// 	// fmt.Println(customer)
+	// fmt.Println(customer)
 
-// 	// Struct Literal
-// 	// customer := Customer{
-// 	// 	Name: "Bobo",
-// 	// 	Address: "Anggrek",
-// 	// 	age: "20",
-// 	// }
-// 	// fmt.Println(customer)
+	// Struct Literal
+	// customer := Customer{
+	// 	Name: "Bobo",
+	// 	Address: "Anggrek",
+	// 	age: "20",
+	// }
+	// fmt.Println(customer)
 
-// 	// Struct Function
-// 	// customer := Customer{
-// 	// 	Name: "Giri",
-// 	// 	Address: "Thamrin",
-// 	// 	age: "20",
-// 	// }
-// 	// customer.sayHello("Binus")
+	// Struct Function
+	// customer := Customer{
+	// 	Name: "Giri",
+	// 	Address: "Thamrin",
+	// 	age: "20",
+	// }
+	// customer.sayHello("Binus")
 
-// 	// Interface
-// 	// var person Person
-// 	// person.Name = "Giri"
-// 	// greeting(person)
+	// Interface
+	// var person Person
+	// person.Name = "Giri"
+	// greeting(person)
 
-// 	// var animal Animal
-// 	// animal.AnimalName = "Bear"
-// 	// greeting(animal)
-// 	// fmt.Println(animal)
+	// var animal Animal
+	// animal.AnimalName = "Bear"
+	// greeting(animal)
+	// fmt.Println(animal)
 
-// 	// Interface Kosong
-// 	// var data interface{} = ups(3)
-// 	// fmt.Println(data)
+	// Interface Kosong
+	// var data interface{} = ups(3)
+	// fmt.Println(data)
 
-// 	// Nil
-// 	// var person map[string]string = newMap("Giri")
-// 	// fmt.Println(person)
+	// Nil
+	// var person map[string]string = newMap("Giri")
+	// fmt.Println(person)
 
-// 	// Error Interface
-// 	// var error error = errors.New("Ups Error")
-// 	// fmt.Printf(error.Error())
+	// Error Interface
+	// var error error = errors.New("Ups Error")
+	// fmt.Printf(error.Error())
 
-// 	// hasil, err := pembagi(100,0)
-// 	// if err!=nil{
-// 	// 	fmt.Println(err)
-// 	// }else{
-// 	// 	fmt.Println(hasil)
-// 	// }
+	// hasil, err := pembagi(100,0)
+	// if err!=nil{
+	// 	fmt.Println(err)
+	// }else{
+	// 	fmt.Println(hasil)
+	// }
 
-// 	// Type Assertion
-// 	// result := getData(3)
-// 	// switch result.(type) {
-// 	// 	case string :
-// 	// 		fmt.Println("String")
-// 	// 	case int :
-// 	// 		fmt.Println("Integer")
-// 	// 	default:
-// 	// 		fmt.Println("Unknown")
-// 	// }
+	// Type Assertion
+	// result := getData(3)
+	// switch result.(type) {
+	// 	case string :
+	// 		fmt.Println("String")
+	// 	case int :
+	// 		fmt.Println("Integer")
+	// 	default:
+	// 		fmt.Println("Unknown")
+	// }
 
-// 	// Pointer
-// 	// x := Address{
-// 	// 	"Medan",
-// 	// }
-// 	// y := &x 
-// 	// (*y).country = "Jakarta"
-// 	// fmt.Println(x)
-// 	// fmt.Println(y)
+	// Pointer
+	// x := Address{
+	// 	"Medan",
+	// }
+	// y := &x 
+	// (*y).country = "Jakarta"
+	// fmt.Println(x)
+	// fmt.Println(y)
 
-// 	// x := 1
-// 	// y := &x
-// 	// z := &x
-// 	// *y = 2
-// 	// *z = 4
-// 	// fmt.Println(x)
-// 	// fmt.Println(*y)
-// 	// fmt.Println(*z)
+	// x := 1
+	// y := &x
+	// z := &x
+	// *y = 2
+	// *z = 4
+	// fmt.Println(x)
+	// fmt.Println(*y)
+	// fmt.Println(*z)
 
 
-// 	// Pointer function
-// 	// x := 10
-// 	// chgValue(&x)
-// 	// fmt.Println(x)
+	// Pointer function
+	// x := 10
+	// chgValue(&x)
+	// fmt.Println(x)
 
-// 	// Pointer di Method
-// 	// man := Man{
-// 	// 	name: "Giri Putra Adhittana",
-// 	// }	
-// 	// man.Married()
-// 	// fmt.Println(man)
+	// Pointer di Method
+	// man := Man{
+	// 	name: "Giri Putra Adhittana",
+	// }	
+	// man.Married()
+	// fmt.Println(man)
 
-// 	// Access Modifier
-// 	// helper.SayHello("Giri Putra Adhittana")
-// 	// helper.SayHy("Giri Putra Adhittana")
+	// Access Modifier
+	// helper.SayHello("Giri Putra Adhittana")
+	// helper.SayHy("Giri Putra Adhittana")
 
-// 	// fmt.Println(helper.Name)
-// 	// // fmt.Println(helper.version)
-// 	// fmt.Println(boba)
+	// fmt.Println(helper.Name)
+	// // fmt.Println(helper.version)
+	// fmt.Println(boba)
 
-// 	// Package Initialization
-// 	// fmt.Println(database.GetConnection())
+	// Package Initialization
+	// fmt.Println(database.GetConnection())
 
-// 	// Package OS
-// 	// args := os.Args
-// 	// fmt.Println(args)
+	// Package OS
+	// args := os.Args
+	// fmt.Println(args)
 
-// 	// hostname,err := os.Hostname()
-// 	// if err == nil{
-// 	// 	fmt.Println(hostname)
-// 	// }else{
-// 	// 	fmt.Println(err)
-// 	// }
+	// hostname,err := os.Hostname()
+	// if err == nil{
+	// 	fmt.Println(hostname)
+	// }else{
+	// 	fmt.Println(err)
+	// }
 	
-// 	// GOPATH := os.Getenv("GOPATH")
-// 	// fmt.Println(GOPATH)
+	// GOPATH := os.Getenv("GOPATH")
+	// fmt.Println(GOPATH)
 
-// 	// Package Flag
-// 	// go run playground.go -host=Giri -username=Putra -password=Adhittana
-// 	// host := flag.String("host","host","Put Your Database Host")
-// 	// username := flag.String("username","username","Put Your Database Username")
-// 	// password := flag.String("password","password","Put Your Database Password")
-// 	// flag.Parse()
-// 	// fmt.Println(*host)
-// 	// fmt.Println(*username)
-// 	// fmt.Println(*password)
+	// Package Flag
+	// go run playground.go -host=Giri -username=Putra -password=Adhittana
+	// host := flag.String("host","host","Put Your Database Host")
+	// username := flag.String("username","username","Put Your Database Username")
+	// password := flag.String("password","password","Put Your Database Password")
+	// flag.Parse()
+	// fmt.Println(*host)
+	// fmt.Println(*username)
+	// fmt.Println(*password)
 
-// 	// Package String
-// 	// fmt.Println(strings.Contains("Giri Putra Adhittana","Putra"))
-// 	// fmt.Println(strings.Split("Giri Putra Adhittana"," "))
-// 	// fmt.Println(strings.ToLower("GIRI PUTRA ADHITTANA"))
-// 	// fmt.Println(strings.ToUpper("giri putra adhittana"))
+	// Package String
+	// fmt.Println(strings.Contains("Giri Putra Adhittana","Putra"))
+	// fmt.Println(strings.Split("Giri Putra Adhittana"," "))
+	// fmt.Println(strings.ToLower("GIRI PUTRA ADHITTANA"))
+	// fmt.Println(strings.ToUpper("giri putra adhittana"))
 
-// 	// Package strconv
-// 	// boolean, err := strconv.ParseBool("True")
-// 	// if err==nil{
-// 	// 	fmt.Println(boolean)
-// 	// }else{
-// 	// 	fmt.Println(err)
-// 	// }
+	// Package strconv
+	// boolean, err := strconv.ParseBool("True")
+	// if err==nil{
+	// 	fmt.Println(boolean)
+	// }else{
+	// 	fmt.Println(err)
+	// }
 
-// 	// Convert from string to int
-// 	// number, err := strconv.Atoi("1000")
-// 	// if err == nil{
-// 	// 	fmt.Println(number)
-// 	// }else{
-// 	// 	fmt.Println(err)
-// 	// }
+	// Convert from string to int
+	// number, err := strconv.Atoi("1000")
+	// if err == nil{
+	// 	fmt.Println(number)
+	// }else{
+	// 	fmt.Println(err)
+	// }
 
-// 	// Package Math
-// 	// fmt.Println(math.Round(1.2))
-// 	// fmt.Println(math.Ceil(1.2))
+	// Package Math
+	// fmt.Println(math.Round(1.2))
+	// fmt.Println(math.Ceil(1.2))
 
-// 	// Package Container / List
-// 	// data := list.New()
-// 	// data.PushBack(1)
-// 	// data.PushBack(2)
-// 	// data.PushFront(3)
-// 	// fmt.Println(data.Back().Prev().Value)
-// 	// fmt.Println(data.Front().Next().Value)
-// 	// for temp := data.Front();temp!= nil;temp = temp.Next(){
-// 	// 	fmt.Println(temp.Value)
-// 	// }
+	// Package Container / List
+	// data := list.New()
+	// data.PushBack(1)
+	// data.PushBack(2)
+	// data.PushFront(3)
+	// fmt.Println(data.Back().Prev().Value)
+	// fmt.Println(data.Front().Next().Value)
+	// for temp := data.Front();temp!= nil;temp = temp.Next(){
+	// 	fmt.Println(temp.Value)
+	// }
 
-// 	// Package Container / Ring
-// 	// data := ring.New(5)
-// 	// for i:=0; i<data.Len();i++{
-// 	// 	data.Value = "Value : "+strconv.FormatInt(int64(i),10)
-// 	// 	data = data.Next()
-// 	// }
-// 	// for i:=0; i<data.Len();i++{
-// 	// 	fmt.Println(data.Value)
-// 	// 	data = data.Next()
-// 	// }
-// 	// data.Do(func(value interface{}){
-// 	// 	fmt.Println(value)
-// 	// })
+	// Package Container / Ring
+	// data := ring.New(5)
+	// for i:=0; i<data.Len();i++{
+	// 	data.Value = "Value : "+strconv.FormatInt(int64(i),10)
+	// 	data = data.Next()
+	// }
+	// for i:=0; i<data.Len();i++{
+	// 	fmt.Println(data.Value)
+	// 	data = data.Next()
+	// }
+	// data.Do(func(value interface{}){
+	// 	fmt.Println(value)
+	// })
 
-// 	// Package Sprt
-// 	// data := []User{
-// 	// 	{"Adhittana",22},
-// 	// 	{"Giri",20},
-// 	// 	{"Putra",21},
-// 	// }
-// 	// fmt.Println(data)
-// 	// sort.Sort(UserSlice(data))
-// 	// fmt.Println(data)
+	// Package Sprt
+	// data := []User{
+	// 	{"Adhittana",22},
+	// 	{"Giri",20},
+	// 	{"Putra",21},
+	// }
+	// fmt.Println(data)
+	// sort.Sort(UserSlice(data))
+	// fmt.Println(data)
 
-// 	// Package Time
-// 	// now := time.Now()
-// 	// fmt.Println(now)
-// 	// fmt.Println(now.Year(),now.Month(),now.Day())
+	// Package Time
+	// now := time.Now()
+	// fmt.Println(now)
+	// fmt.Println(now.Year(),now.Month(),now.Day())
 
-// 	// layout := "2006-01-02"
-// 	// parse,_ := time.Parse(layout,"2020-10-02")
-// 	// fmt.Println(parse)
+	// layout := "2006-01-02"
+	// parse,_ := time.Parse(layout,"2020-10-02")
+	// fmt.Println(parse)
 
-// 	// Package Reflect
-// 	// person := Person{"Giri Putra Adhittana",20}
-// 	// pType := reflect.TypeOf(person)
-// 	// fmt.Println(pType.NumField())
-// 	// fmt.Println(pType.Field(0).Name)
-// 	// fmt.Println(pType.Field(1).Name)
-// 	// fmt.Println(pType.Field(0).Tag.Get("required"))
-// 	// fmt.Println(pType.Field(0).Tag.Get("max"))
-// 	// fmt.Println(pType.Field(1).Tag.Get("required"))
-// 	// person.Name = ""
-// 	// fmt.Println(isValid(person))
+	// Package Reflect
+	// person := Person{"Giri Putra Adhittana",20}
+	// pType := reflect.TypeOf(person)
+	// fmt.Println(pType.NumField())
+	// fmt.Println(pType.Field(0).Name)
+	// fmt.Println(pType.Field(1).Name)
+	// fmt.Println(pType.Field(0).Tag.Get("required"))
+	// fmt.Println(pType.Field(0).Tag.Get("max"))
+	// fmt.Println(pType.Field(1).Tag.Get("required"))
+	// person.Name = ""
+	// fmt.Println(isValid(person))
 
-// 	// regex := regexp.MustCompile("g[a-z]r[a-z]")
-// 	// fmt.Println(regex.MatchString("giri"))
-// 	// fmt.Println(regex.MatchString("gir"))
-// 	// fmt.Println(regex.MatchString("gara"))
-// 	fmt.Println("Hello")
-// }
+	// regex := regexp.MustCompile("g[a-z]r[a-z]")
+	// fmt.Println(regex.MatchString("giri"))
+	// fmt.Println(regex.MatchString("gir"))
+	// fmt.Println(regex.MatchString("gara"))
+	// fmt.Println("Hello")
+}
 
 
 
